@@ -1,1 +1,262 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Site pessoal de encerramento do Ensino Médio e portfólio de redações.">
+
+  <title>Meu percurso | Ensino Médio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">M.</span>
+      <span>Meu percurso</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#sobre">Sobre</a>
+      <a href="#memorias">Memórias</a>
+      <a href="#redacoes">Redações</a>
+      <a href="#final">Mensagem final</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INÍCIO -->
+    <section class="hero section" id="inicio">
+
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFÓLIO • PROGRAMAÇÃO WEB</p>
+
+        <h1>
+          Uma etapa termina.<br>
+          <em>Novas histórias começam.</em>
+        </h1>
+
+        <p class="hero-intro">
+          Um espaço para guardar lembranças, reconhecer aprendizados
+          e compartilhar um pouco da minha trajetória durante o Ensino Médio.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#memorias">
+            Revisitar memórias <span>↘</span>
+          </a>
+
+          <a class="text-link" href="#redacoes">
+            Explorar redações
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-placeholder">
+          <div class="portrait-inner">
+            <span class="portrait-symbol">✳</span>
+            <span>ADICIONE SUA FOTO</span>
+            <small>img/perfil.jpg</small>
+          </div>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-number">01 / 03</span>
+
+          <span>
+            Uma coleção de momentos<br>
+            e ideias que me trouxeram até aqui.
+          </span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- FRASE -->
+    <section class="quote-section" id="sobre">
+
+      <div class="quote-label">
+        UMA REFLEXÃO SOBRE ESTA ETAPA
+      </div>
+
+      <blockquote>
+        “Chegar ao final do Ensino Médio é fechar um ciclo marcante
+        para abrir as portas do mundo. Cada linha de código escrita
+        neste projeto representa não apenas o seu aprendizado técnico,
+        mas também a história única que você construiu nestes anos
+        de escola. Tenha orgulho da sua trajetória, coragem para encarar
+        os novos desafios e a certeza de que você é o único autor
+        do seu próprio futuro!”
+      </blockquote>
+
+      <div class="quote-signature">
+        — Para lembrar sempre
+      </div>
+
+    </section>
+
+    <!-- MEMÓRIAS -->
+    <section class="section memories-section" id="memorias">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">CAPÍTULO 01</p>
+          <h2>Memórias escolares</h2>
+        </div>
+
+        <p class="section-description">
+          Uma linha do tempo de fases, descobertas e momentos
+          que fizeram parte da minha história. Edite os textos
+          e substitua as imagens pelos seus registros.
+        </p>
+
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+
+    </section>
+
+    <!-- REDAÇÕES -->
+    <section class="section portfolio-section" id="redacoes">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">CAPÍTULO 02</p>
+          <h2>Portfólio de redações</h2>
+        </div>
+
+        <p class="section-description">
+          Ideias, argumentos e reflexões sobre temas que atravessam
+          a sociedade. Os textos estão reunidos para consulta e leitura.
+        </p>
+
+      </div>
+
+      <div class="portfolio-tools">
+
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+
+          <input
+            id="essaySearch"
+            type="search"
+            placeholder="Buscar por título, tema ou palavra..."
+            aria-label="Buscar redações"
+          >
+        </label>
+
+        <div class="essay-count" id="essayCount">
+          15 redações
+        </div>
+
+      </div>
+
+      <div class="essay-grid" id="essayGrid"></div>
+
+      <p class="no-results" id="noResults" hidden>
+        Nenhuma redação encontrada. Tente outra palavra-chave.
+      </p>
+
+    </section>
+
+    <!-- FINAL -->
+    <section class="closing-section" id="final">
+
+      <div class="closing-inner">
+
+        <p class="eyebrow">
+          CAPÍTULO 03 • O QUE VEM A SEGUIR
+        </p>
+
+        <h2>
+          O fim de uma etapa<br>
+          é também <em>um começo.</em>
+        </h2>
+
+        <p>
+          Levo comigo as experiências, os aprendizados e as pessoas
+          que fizeram parte dessa caminhada. Que os próximos capítulos
+          sejam escritos com curiosidade, coragem e propósito.
+        </p>
+
+        <a class="button button-light" href="#inicio">
+          Voltar ao início ↑
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+
+    <span>
+      Meu percurso · Portfólio do Ensino Médio
+    </span>
+
+    <span>
+      Feito com HTML, CSS e JavaScript
+    </span>
+
+  </footer>
+
+  <!-- MODAL DE REDAÇÃO -->
+  <dialog class="essay-modal" id="essayModal">
+
+    <div class="modal-header">
+
+      <span class="modal-kicker" id="modalKicker">
+        REDAÇÃO
+      </span>
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Fechar leitura"
+      >
+        ×
+      </button>
+
+    </div>
+
+    <h2 id="modalTitle"></h2>
+
+    <div class="modal-body" id="modalBody"></div>
+
+    <div class="modal-footer">
+
+      <span>PORTFÓLIO DE REDAÇÕES</span>
+
+      <button class="button button-dark" id="modalCloseBottom">
+        Fechar leitura
+      </button>
+
+    </div>
+
+  </dialog>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
